@@ -1,0 +1,25 @@
+/* TODO: Set the position for your blog post preview and initiate an animation with suitable properties */
+
+/* TODO: Define your @keyframes for the glowing effect your post preview should have */
+
+.post-preview {
+    position: relative;
+    background-color: #f0f8ff; /* Initial background color (AliceBlue) */
+    padding: 20px;
+    border-radius: 10px;
+    /* Apply the animation */
+    animation: glow 13s infinite ease-in-out;
+  }
+  
+  @keyframes glow {
+    0% {
+      background-color: #f0f8ff; /* AliceBlue */
+    }
+    50% {
+      background-color: #00aefe; /* Slightly lighter blue */
+    }
+    100% {
+      background-color: #f0f8ff; /* AliceBlue */
+    }
+  }
+  
